@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-new-moment',
   templateUrl: './new-moment.component.html',
-  styleUrl: './new-moment.component.css'
+  styleUrl: './new-moment.component.css',
 })
 export class NewMomentComponent {
-
+  btnText = 'compartilhar!';
 }
