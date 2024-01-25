@@ -4,7 +4,7 @@
   <div *ngIf="moments.length > 0; else noMoments">
     <div class="moments-container">
       <div class="moment" *ngFor="let moment of moments">
-        <img src="{{ baseApiUrl }}tmp/uploads/{{ moment.image }}" alt="{{ moment.title }}">
+        <img src="{{ baseApiUrl }}uploads/{{ moment.image }}" alt="{{ moment.title }}">
 
         <h3>{{ moment.title }}</h3>
         <p class="date">Em: {{ moment.created_at }}</p>
